@@ -77,5 +77,5 @@ $pina = $judul2;
 }
 //copy($image, $mid.'.jpg');
 ?>
-<a data-pin-do="buttonPin"  href="https://www.pinterest.com/pin/create/button/?url=<?php echo urlencode($domain[array_rand($domain)]);?>&media=<?=$image;?>&description=<?php echo urlencode($pina);?>" data-pin-custom="true"><img src="https://addons.opera.com/media/extensions/55/19155/1.1-rev1/icons/icon_64x64.png" width="25" height="25"></a>
+<a data-pin-do="buttonPin"  href="https://www.pinterest.com/pin/create/button/?url=<?php echo urlencode($domain);?>&media=<?=$image;?>&description=<?php echo urlencode($pina);?>" data-pin-custom="true"><img src="https://addons.opera.com/media/extensions/55/19155/1.1-rev1/icons/icon_64x64.png" width="25" height="25"></a>
 
